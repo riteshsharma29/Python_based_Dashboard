@@ -5,4 +5,4 @@ Python based Dashboard using (Pandas + Pandas-Bokeh + Flask). Useful in creating
 {% block content %} top and {% endblock %} bottom of each generated dynamic html files. 
 2) Place all html files in a template folder and css file in css folder. Make changes in home.html, layout.html ,layout2.html and main.py only if required. <br>
 3) Run ./main.py to make dashboard live.<br>
-4) Entire source code is zipped for reference.
+4) Entire source code is 'dashboard.zip' zipped for reference.
