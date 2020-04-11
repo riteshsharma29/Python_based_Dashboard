@@ -1,0 +1,21 @@
+{% extends "layout2.html" %}
+{% block content %}
+  <div class="Q" style="float: left;width:50%;">
+          <ul>
+		    <pre style="font-size: 20px">
+            <li><a href="{{ url_for('Q1')}}">Africa</a></li>
+            <li><a href="{{ url_for('Q2')}}">Asia</a></li>	
+			<li><a href="{{ url_for('Q3')}}">Europe</a></li>	
+            <pre>			
+          </ul>    
+  </div>
+  <div class="Q" style="float: right;width:50%;">
+          <ul>
+		  <pre style="font-size: 20px">
+            <li ><a href="{{ url_for('Q4')}}">North America</a></li>
+            <li><a href="{{ url_for('Q5')}}">South America</a></li>
+            <li><a href="{{ url_for('Q6')}}">Oceania</a></li>				
+          <pre>			
+          </ul>    
+  </div>  
+{% endblock %}
